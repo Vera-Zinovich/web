@@ -17,6 +17,7 @@ body{
     display: flex;
     height: 100vh;
     gap: 2px;
+    overflow: hidden;
     
 }
 .card-1{
@@ -50,6 +51,8 @@ transition: 0,3s;
 
 .card:hover{
     transform: scale(105%);
+    z-index: 1;
+    position: relative;
 }
 
 h3{
